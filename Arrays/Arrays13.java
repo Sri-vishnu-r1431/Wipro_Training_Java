@@ -7,7 +7,7 @@ public class Arrays13 {
 	public static void main(String [] args) {
 		
 		if(args.length==0) {System.out.println("Please enter 4 integers");}
-		else {Scanner s=new Scanner(System.in);
+		else {
 		int [][]arr=new int[2][2];
 		int k=0;
 		for(int i=0;i<arr.length;i++) {
